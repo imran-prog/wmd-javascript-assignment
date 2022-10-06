@@ -12,28 +12,28 @@ console.log(car == 'subaru')
 • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
  */
 
-let name = "Imran"
+let firstName = "Imran"
 let firstNum = 10
 let secondNum = 20
 
-console.log("If name == 'Imran'? I Predict True.");
+console.log("If firstName == 'Imran'? I Predict True.");
 console.log("If firstNum == secondNum? I Predict False.");
 console.log("If firstNum > secondNum? I Predict False.");
 console.log("If firstNum < secondNum? I Predict True.");
 console.log("If firstNum != secondNum? I Predict True.");
-console.log("If name == 'Akbar'? I Predict False.");
-console.log("If name == secondNum? I Predict False.");
+console.log("If firstName == 'Akbar'? I Predict False.");
+console.log("If firstName == secondNum? I Predict False.");
 console.log("If firstNum >= secondNum? I Predict False.");
 console.log("If firstNum <= secondNum? I Predict True.");
 console.log("If firstNum == 10? I Predict True.");
 
-console.log(name == "Imran");
+console.log(firstName == "Imran");
 console.log(firstNum == secondNum);
 console.log(firstNum > secondNum);
 console.log(firstNum < secondNum);
 console.log(firstNum != secondNum);
-console.log(name == "Akbar");
-console.log(name == secondNum);
+console.log(firstName == "Akbar");
+console.log(firstName == secondNum);
 console.log(firstNum >= secondNum);
 console.log(firstNum <= secondNum);
 console.log(firstNum == 10);

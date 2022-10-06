@@ -5,16 +5,16 @@
 • Remove all of the usernames from your array, and make sure the correct message is printed.
  */
 
-let usernames = [];
+let username = ['admin', 'leader', 'zoro']
 
-if (usernames.length == 0) {
+if (username.length == 0) {
   console.log("We need to find some users");
-} else {
-  usernames.map((name) => {
-    if (name == "admin") {
-      console.log("Hello admin, would you like to see a status report?");
-    } else {
-      console.log(`Hello ${name}, thank you for logging in again`);
-    }
-  });
+}
+
+
+// With Emty Array
+username = []
+
+if (username.length == 0) {
+  console.log("We need to find some users");
 }

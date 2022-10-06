@@ -14,8 +14,8 @@ let newUsers = ["Leader", "soldier", "king", "online", "servant"];
 
 newUsers.map((user) => {
   if (currentUsers.includes(user.toLowerCase())) {
-    console.log("Enter a new username");
+    console.log(user + ", username is not available please choose another");
   } else {
-    console.log("username is available");
+    console.log(user + ", username is available");
   }
 });
